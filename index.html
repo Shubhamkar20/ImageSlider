@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Image slider</title>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@splidejs/splide@2.3.1/dist/css/splide.min.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <div id="splide">
+    <div class="splide__progress">
+      <div class="splide__progress__bar"></div>
+    </div> <!-- /.splide__progress -->
+
+    <div class="splide__optional-button-container">
+      <button class="splide__play-pause" aria-controls="splide-track">Pause</button>
+    </div> <!-- /.splide__optional-button-container -->
+
+
+    <div class="splide__track" id="splide-track">
+      <ul class="splide__list">
+        <li class="splide__slide">
+          <img src="./assets/img/butterflies-1127666_1280.jpg" alt="plchldr.co Green">
+        </li>
+
+        <li class="splide__slide">
+          <img src="./assets/img/flowers-19830_1280.jpg" alt="plchldr.co Orange">
+        </li>
+
+        <li class="splide__slide">
+          <img src="./assets/img/tulip-8244705_1280.jpg" alt="plchldr.co Black">
+        </li>
+      </ul> <!-- /.splide__list -->
+    </div> <!-- /.splide__track -->
+  </div> <!-- /.splide -->
+  <!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/@splidejs/splide@2.3.1/dist/js/splide.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
